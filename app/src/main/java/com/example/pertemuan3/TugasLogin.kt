@@ -55,6 +55,18 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                 fontSize = 14.sp,
                 color = Color.White
             )
+
+            Spacer(modifier = Modifier.height(28.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = null,
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(120.dp)
+                    .clip(CircleShape)
+                    .graphicsLayer(scaleX = 1.15f, scaleY = 1.15f)
+            )
         }
     }
 }
