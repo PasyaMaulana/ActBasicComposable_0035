@@ -35,5 +35,20 @@ fun LoginScreen(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )
+
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .statusBarsPadding()
+                .padding(top = 32.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Text(
+                text = stringResource(id = R.string.login_title),
+                fontSize = 32.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Yellow
+            )
+        }
     }
 }
