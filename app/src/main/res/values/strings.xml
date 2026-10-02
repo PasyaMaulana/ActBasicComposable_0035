@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Pertemuan3</string>
     <string name="kota">Yogyakarta</string>
+    <string name="login_title">Login</string>
+    <string name="login_subtitle">Ini adalah halaman login,</string>
+    <string name="label_nama">Nama</string>
+    <string name="nama_lengkap">Pasya Achmadinedja Maulana</string>
+    <string name="nim">20240140035</string>
 </resources>
