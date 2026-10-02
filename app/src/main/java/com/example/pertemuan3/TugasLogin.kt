@@ -67,6 +67,15 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                     .clip(CircleShape)
                     .graphicsLayer(scaleX = 1.15f, scaleY = 1.15f)
             )
+
+            Spacer(modifier = Modifier.height(64.dp))
+
+            Text(
+                text = stringResource(id = R.string.label_nama),
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Yellow
+            )
         }
     }
 }
