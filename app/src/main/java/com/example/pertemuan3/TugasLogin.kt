@@ -49,6 +49,12 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Yellow
             )
+            Spacer(modifier = Modifier.height(4.dp))
+            Text(
+                text = stringResource(id = R.string.login_subtitle),
+                fontSize = 14.sp,
+                color = Color.White
+            )
         }
     }
 }
