@@ -83,6 +83,13 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.White
             )
+            Spacer(modifier = Modifier.height(4.dp))
+            Text(
+                text = stringResource(id = R.string.nim),
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
         }
     }
 }
